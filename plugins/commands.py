@@ -20,13 +20,13 @@ join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    await message.react(emoji="🔥", big=True)
+    await message.react(emoji="🥹", big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/BackUP_Panda')
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/RitsamHub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -55,7 +55,7 @@ async def start(client, message):
                 InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-                InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/BackUP_Panda')
+                InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/RitsamHub')
             ],[
                 InlineKeyboardButton('Hᴇʟᴩ 🕸️', callback_data='help'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ ✨', callback_data='about')
@@ -180,7 +180,7 @@ async def start(client, message):
                     InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕"', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/BackUP_Panda')
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ 🔈', url='https://t.me/RitsamHub')
                 ],[
                     InlineKeyboardButton('Hᴇʟᴩ 🕸️', callback_data='help'),
                     InlineKeyboardButton('Aʙᴏᴜᴛ ✨', callback_data='about')
