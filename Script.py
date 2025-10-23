@@ -126,17 +126,18 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-    LOG_TEXT_G = """#New_Group ✨<br>
-Gʀᴏᴜᴘ = {group_name} (<code>{group_id}</code>)<br>
-Lɪɴᴋ - {group_link}<br>
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{total_members}</code><br>
-Aᴅᴅᴇᴅ Bʏ - {added_by}<br>
-ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"""
+    LOG_TEXT_G = """#NewGroup
+Gʀᴏᴜᴘ = {}(<code>{}</code>)
+Lɪɴᴋ - {group_link}
+Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+Aᴅᴅᴇᴅ Bʏ - {}
+ᥴꪶⅈᥴ𝕜 ꪑꫀ = {message.from_user.mention}"""
 
-LOG_TEXT_P = """#New_User ✨<br>
-ID - <code>{user_id}</code><br>
-Nᴀᴍᴇ - {user_name}<br>
-ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"""
+LOG_TEXT_P = """#NewUser
+
+ID - <code>{}</code>
+Nᴀᴍᴇ - {}
+ᥴꪶⅈᥴ𝕜 ꪑꫀ = {message.from_user.mention}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
