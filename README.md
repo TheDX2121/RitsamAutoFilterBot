@@ -32,7 +32,7 @@
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete 
 
-Join My <a href='https://telegram.dog/BackUP_Panda'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://telegram.dog/RitsamHub'>Update Channel</a> For More Update Regarding Repo.</b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
 
