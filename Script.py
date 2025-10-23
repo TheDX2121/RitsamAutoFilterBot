@@ -126,21 +126,17 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-    LOG_TEXT_G = (
-    "#New_Group ✨\n"
-    "Gʀᴏᴜᴘ = {group_name} (<code>{group_id}</code>)\n"
-    "Lɪɴᴋ - {group_link}\n"
-    "Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{total_members}</code>\n"
-    "Aᴅᴅᴇᴅ Bʏ - {added_by}\n"
-    "ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"
-)
+    LOG_TEXT_G = """#New_Group ✨<br>
+Gʀᴏᴜᴘ = {group_name} (<code>{group_id}</code>)<br>
+Lɪɴᴋ - {group_link}<br>
+Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{total_members}</code><br>
+Aᴅᴅᴇᴅ Bʏ - {added_by}<br>
+ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"""
 
-LOG_TEXT_P = (
-    "#New_User ✨\n"
-    "ID - <code>{user_id}</code>\n"
-    "Nᴀᴍᴇ - {user_name}\n"
-    "ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"
-)
+LOG_TEXT_P = """#New_User ✨<br>
+ID - <code>{user_id}</code><br>
+Nᴀᴍᴇ - {user_name}<br>
+ᥴꪶⅈᥴ𝕜 ꪑꫀ = {mention}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
