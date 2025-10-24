@@ -15,21 +15,21 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'VenomMWBot')
-API_ID = int(environ.get('API_ID', '29296297'))
-API_HASH = environ.get('API_HASH', '477a9529cfd84f4088539c6ab94351fc')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7734909894:AAENMCOu2-WNw1UjZCVlLKUNGW9bUGmdKtc")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/d3c393bb5d080e8e9e81e-3f2f652d36d17644d3.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/d3c393bb5d080e8e9e81e-3f2f652d36d17644d3.jpg")
+PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/HowToOpenLinks7")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/d3c393bb5d080e8e9e81e-3f2f652d36d17644d3.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002183238983'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094080507').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002183238983').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -49,7 +49,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Sparkle_Autobot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SparkleCollection')
 
 # Premium And Referal Settings
